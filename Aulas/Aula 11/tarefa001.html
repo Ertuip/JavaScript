@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiscal de Aeroporto</title>
+</head>
+<body>
+    <h1>Sistema de Verificação de Nacionalidade</h1>
+    País: <input type="text" name="pais" id="ipais">
+    <input type="submit" value="Enviar" id="sub">
+    <p id="res"></p>
+    <script>
+        var env = document.getElementById('sub')
+        env.addEventListener('click', clicar)
+        function clicar() {
+            var txt = document.getElementById('ipais').value
+            var resu = document.getElementById('res')
+            resu.innerHTML = `<p>Você nasceu no país: <strong>${txt}</strong></p>`
+            if (txt == 'Brasil') {
+                resu.innerHTML += '<p>Você é Brasileiro</p>'
+            } else {
+                resu.innerHTML += '<p>Você é Estrangeiro</p>'
+            }
+        }
+    </script>
+</body>
+</html>
