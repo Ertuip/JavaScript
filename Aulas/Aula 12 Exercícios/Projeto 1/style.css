@@ -25,6 +25,7 @@ header > h1 {
 }
 
 #data {
+    display: inline;
     font-size: 1.2em;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
