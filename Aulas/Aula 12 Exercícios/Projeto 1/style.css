@@ -50,8 +50,8 @@ img {
     border-radius: 15px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.445);
     color: white;
-    margin-left: 85px;
-    margin-right: 85px;
+    display: block;
+    margin: -15px auto;
     padding: 20px;
     text-align: center;
     text-decoration: none;
