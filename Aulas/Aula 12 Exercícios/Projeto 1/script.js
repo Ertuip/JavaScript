@@ -31,5 +31,3 @@ function load() {
         document.body.style.background.color = '#515154'
     }
 }
-
-load()
