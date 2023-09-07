@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +12,18 @@
     </header>
     <section id="sec1">
         <div>
-            <label for="inum">Número Inícial: </label>
+            <label for="inum"><p>Número Inícial: </p></label>
             <input type="number" name="num" id="inum"> <br><br>
-            <label for="inum1">Número Final: </label>
+            <label for="inum1"><p>Número Final: </p></label>
             <input type="number" name="num1" id="inum1"> <br><br>
-            <label for="ipas">Passos do Número de Contagem: </label>
-            <input type="number" name="pas" id="ipas">
-            <input type="submit" value="Enviar" onclick="calc()">
+            <label for="ipas"><p>Passos do Número de Contagem: </p></label>
+            <input type="number" name="pas" id="ipas"> <br><br>
+            <input type="submit" value="Enviar" id="env" onclick="calc()">
         </div>
+        <div id="res"></div>
+    </section>
+    <section id="sec2">
+        <a href="https://github.com/Ertuip" target="_blank">Visite Meu GitHub!</a>
     </section>
     <footer>
         <p>&copy;Ertuip</p>

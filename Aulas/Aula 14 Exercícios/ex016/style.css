@@ -23,3 +23,50 @@ header > h1 {
     padding: 15px;
     max-width: 500px;
 }
+
+label > p {
+    display: inline;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.300);
+}
+
+#env {
+    background-color: rgba(0, 0, 0, 0.650);
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 4px black;
+    color: white;
+    padding: 3px 6px;
+}
+
+#sec2 {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    margin: auto;
+    margin-top: 30px;
+    padding: 35px;
+    max-width: 350px;
+}
+
+#sec2 a {
+    background-color: #50A0F5;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.445);
+    color: white;
+    display: block;
+    margin: -15px auto;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+footer > p {
+    font-style: normal;
+}
