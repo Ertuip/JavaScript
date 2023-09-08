@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(70, 142, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 2.6em;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.450);
+}
+
+#sec1 {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    margin: auto;
+    padding: 15px;
+    max-width: 500px;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+footer > p {
+    font-style: normal;
+}
