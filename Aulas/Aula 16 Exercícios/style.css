@@ -24,6 +24,10 @@ header > h1 {
     max-width: 500px;
 }
 
+#ilista {
+    width: 260px;
+}
+
 footer {
     color: white;
     text-align: center;
